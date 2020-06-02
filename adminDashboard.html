@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>BMW</title>
+    <style>
+        .active{
+            color:black;
+        }
+    </style>
+</head>
+<body style="background: url(images/back.jpg) no-repeat center center;">
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top text-light">
+        <a class="navbar-brand" href="adminDashboard.html"><img src="images/logo01.jpg" style="width: auto;height: 60px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="adminDashboard.html" >HOME <span class="sr-only">(current)</span></a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="addCar.html" style="color:white;">Add Car <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="updateCar.html" style="color:white;">Update Car<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="deleteCar.html" style="color:white;">Delete Car<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Nav End-->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4" style="margin: 20px;margin-top: 200px;">
+                
+                <a href="addCar.html" ><button class="btn btn-primary" style="width: 300px;height: 70px;margin-top: 20px;">Add Car</button></a>
+                <a href="updateCar.html" ><button class="btn btn-primary" style="width: 300px;height: 70px;margin-top: 20px;">Update Car Details</button></a>
+                <a href="deleteCar.html" ><button class="btn btn-primary" style="width: 300px;height: 70px;margin-top: 20px;">Delete Car</button></a>
+            </div>
+            <div class="col-md-4" style="margin: 20px;margin-top: 200px;"></div>
+            
+        </div>
+    </div>
+</body>
+</html>

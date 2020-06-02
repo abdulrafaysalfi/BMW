@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #0005;
+    /*height: 80px;*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    font-weight: 800;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /*margin-top: 4%;*/
+}
+.wrapper{
+    background: url(images/back.jpg)
+	no-repeat center center;
+    min-height: 48rem;
+}
+.section{padding:14%;}
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: white;
+}
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;}
+    #footer{
+        background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+    }
